@@ -4,6 +4,7 @@ Mesos Container monitoring by using Marathon API.
 # Metrics
   * marathon.app.tasks.running: number of running tasks
   * marathon.app.tasks.healthy: number of healthy tasks
+  * zabbix sender status: 0=OK, 1=Failed
   * container health status: 0=Unhealthy, 1=Healthy
   * container task state: 0=Down, 1=Up
   * container start time
